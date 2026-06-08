@@ -1,6 +1,6 @@
-# MyClaude - Claude CLI Session Manager
+# MyClaude - Claude CLI Cross Directory Session Manager
 
-A cross-project session picker for [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Scans your local session transcripts, shows a searchable menu sorted by most recent activity, and resumes the chosen session in its original working directory.
+A cross-project/Cross Directory session picker for [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Scans your local session transcripts, shows a searchable menu sorted by most recent activity, and resumes the chosen session in its original working directory.
 
 ## Why
 
