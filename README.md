@@ -84,6 +84,16 @@ Resuming abc123-def456 in C:\Source\MyProject
 
 3. Make sure the directory containing the wrapper is in your PATH.
 
+## Tip: Name Your Sessions
+
+Claude Code lets you name sessions so they're easier to find later — both in MyClaude's search and in the built-in `claude --resume` picker:
+
+- **At startup**: `claude -n auth-refactor`
+- **During a session**: `/rename auth-refactor`
+- **From the resume picker**: highlight a session and press `Ctrl+R`
+
+A named session shows its name instead of the first message preview, making it much easier to identify at a glance.
+
 ## How It Works
 
 - Scans `~/.claude/projects/` recursively for `.jsonl` session transcript files
